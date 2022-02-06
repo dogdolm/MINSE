@@ -1,20 +1,21 @@
 import flask
-app = flask.Flask(__name__)
+application = flask.Flask(__name__)
 
 
-@app.route('/')
+@application.route('/')
 def index():
     return flask.render_template('mainpage.html')
 
 
-@app.route('/compare/')
+@application.route('/compare/')
 def compare():
     return flask.render_template('compare.html')
 
 
-@app.route('/login/')
+@application.route('/login/')
 def login():
     return flask.render_template('login.html')
 
 
-app.run()
+if __name__ == "__main__":
+   application.run(host='0.0.0.0')
