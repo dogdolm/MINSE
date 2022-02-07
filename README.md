@@ -1,2 +1,2 @@
 # MINSE
-This is a site which is made for finding math problems solve in internet
+This is a site which is made for checking math problems solving
