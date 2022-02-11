@@ -17,5 +17,11 @@ def login():
     return flask.render_template('login.html')
 
 
+@application.route('/entrance/')
+def entrance():
+    return flask.render_template('entrance.html')
+
+
+
 if __name__ == "__main__":
    application.run(host='0.0.0.0')
