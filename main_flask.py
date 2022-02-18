@@ -68,7 +68,7 @@ def payment(subscribition_type):
     elif subscribition_type == 3:
         href = '<iframe src="https://yoomoney.ru/quickpay/button-widget?targets=%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20Lite%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B8%20minse.ru&default-sum=229&button-text=11&yoomoney-payment-type=on&button-size=l&button-color=black&mail=on&successURL=&quickpay=small&account=4100111091828033&" width="227" height="48" frameborder="0" allowtransparency="true" scrolling="no"></iframe>'
         hreft = '<iframe src="https://yoomoney.ru/quickpay/button-widget?targets=%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20Lite%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B8%20minse.ru&default-sum=229&button-text=11&any-card-payment-type=on&button-size=l&button-color=black&mail=on&successURL=&quickpay=small&account=4100111091828033&" width="227" height="48" frameborder="0" allowtransparency="true" scrolling="no"></iframe>'
-    return flask.render_template('pay.html')
+    return flask.render_template('pay.html', href = href, hreft = hreft)
 
 
 def registered():
