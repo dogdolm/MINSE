@@ -1,0 +1,4 @@
+Contact: mailto: admin@minse.ru
+Expires: 2022-06-01T20:59:00.000Z
+Preferred-Languages: en, ru
+Hiring: mailto: job@minse.ru
